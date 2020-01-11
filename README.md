@@ -14,6 +14,10 @@ pipenv install
 
 ## Usage
 
+### Env Variables
+
+DB_URL = Database URI # [See here](https://docs.sqlalchemy.org/en/13/core/engines.html#database-urls)
+
 ### Development
 
 ```bash
