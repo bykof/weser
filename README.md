@@ -12,9 +12,9 @@ Weser is just a small server which provides a OpenAPI specification (/docs) and 
 pipenv install
 ```
 
-Create an `.env` file
+Create an `.env` file with following content:
 ```
-DB_URL="sqlite:///./db.sqlite"
+echo "DB_URL=\"sqlite:///./db.sqlite\"" > .env
 ```
 
 ## Usage
